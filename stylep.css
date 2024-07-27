@@ -81,7 +81,7 @@ form button[type="submit"]:focus {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   padding: 15px;
-  background-color: #004d40; /* Background color for player cards */
+  background-color: #bf6618; /* Background color for player cards */
 }
 
 @media screen and (max-width: 600px) {
