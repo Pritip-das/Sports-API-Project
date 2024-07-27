@@ -10,14 +10,18 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+
   background: linear-gradient(to right, #e0f7ff, #b3d9ff); /* Wavy blue gradient background */
+
 }
 
 h1 {
   font-family: 'IM Fell English SC', serif;
   font-weight: 700;
   font-style: normal;
+
   color: #003366; /* Darker blue for header text */
+
   margin: 0; /* Remove default margin */
 }
 
@@ -27,7 +31,9 @@ h1 {
   align-items: center;
   font-size: 2rem; /* Font size for header */
   padding: 10px; /* Reduced padding for a smaller header height */
+
   background: #b3d9ff; /* Light blue background for header */
+
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -64,7 +70,9 @@ h1 {
   display: block;
   width: 100%;
   height: 100%;
+
   background: linear-gradient(to bottom, rgba(0, 122, 204, 0.3), rgba(173, 216, 230, 0.7)); /* Blue gradient */
+
   z-index: 2;
   transition: 0.3s all;
   opacity: 0;
@@ -109,6 +117,7 @@ h1 {
   letter-spacing: 1px;
   font-size: 15px;
   margin: 8px 0 0;
+
   text-align: center;
   font-style: italic;
 }
@@ -127,6 +136,7 @@ footer {
 footer p {
   margin: 0;
 }
+
 
 @media (max-width: 768px) {
   .head {
