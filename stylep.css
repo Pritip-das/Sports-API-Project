@@ -1,91 +1,101 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body{
-  background-color: #2b1d0f; 
-  color: #fff;
+body {
+  background-color: #003d34; /* Dark teal background */
+  color: #e0f2f1; /* Light text color for good contrast */
 }
 
-header nav{
-  background-color: #212121;
+header nav {
+  background-color: #004d40; /* Slightly lighter teal for navigation */
   padding: 20px;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   z-index: 1;
 }
 
-header nav h1{
+header nav h1 {
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
+  color: #e0f2f1; /* Light color for header text */
 }
 
-header nav form{
+header nav form {
   display: flex;
   justify-content: center;
 }
 
-form input[type="text"]{
+form input[type="text"] {
   flex-grow: 1;
-  margin-right:10px;
-}
-
-
-form input[type="text"],button
-[type="submit"]{
+  margin-right: 10px;
   border: none;
   font-size: 18px;
   padding: 10px;
   border-radius: 4px;
+  background-color: #fff; /* White background for the search bar */
+  color: #003d34; /* Dark teal text color for contrast */
 }
 
-form button[type="submit"]{
-  background-color: #f44336;
-  color:#fff;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
+form button[type="submit"] {
+  background-color: #f44336; /* Red background for button */
+  color: #fff; /* White text color for the button */
+  border: none;
+  font-size: 18px;
   padding: 10px;
   border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
 }
 
-form button[type="submit"]:hover{
- background-color: #ff5c5c;
+form button[type="submit"]:hover {
+  background-color: #c62828; /* Darker red on hover */
 }
 
-.player-container{
+form button[type="submit"]:focus {
+  outline: 2px solid #c62828; /* Outline color matching the hover effect */
+  outline-offset: 2px;
+}
+
+.player-container {
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 40px;
   width: 80%;
   margin: 10px auto;
   padding: 20px;
 }
 
-.players{
-
+.players {
   display: flex;
   flex-direction: column;
-  color: #fff;
+  color: #e0f2f1; /* Light text color for player cards */
   border-radius: 6px;
-  box-shadow: 0 5px 10px rgba(78,73,73,0.1), -5px -5px 10px rgba(34,34,34,0.5);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
+  padding: 15px;
+  background-color: #004d40; /* Background color for player cards */
 }
 
-
-@media screen and (max-width:600px){
-  header nav{
+@media screen and (max-width: 600px) {
+  header nav {
     flex-direction: column;
   }
 
-  header nav form{
-    width:80%;
+  header nav form {
+    width: 80%;
     margin-top: 20px;
   }
+
+  .player-container {
+    width: 100%;
+  }
 }
+
