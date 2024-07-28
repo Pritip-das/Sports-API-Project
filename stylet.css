@@ -73,7 +73,7 @@ header .logo img {
 }
 
 header nav {
-  display: flex;
+/*   display: flex; */
   align-items: center;
 }
 
@@ -259,7 +259,7 @@ main {
   }
 }
 
-/* @media (max-width: 480px) {
+@media (max-width: 480px) {
   header {
     padding: 5px;
   }
@@ -311,22 +311,22 @@ main {
   }
 
   
-} */
-/* .checkbtn{
+}
+ .checkbtn{
   font-size: 30px;
   color: white;
   float:right;
   line-height: 80px;
   margin-right: 100px;
   cursor: pointer;
-/*   display: none; */
+  display: none; 
 }
 
-/* #check{
+#check{
   display: none;
-} */ */
+} 
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   header {
     padding: 5px;
   }
@@ -359,3 +359,4 @@ main {
 }
 
 
+ */
