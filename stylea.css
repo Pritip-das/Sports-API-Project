@@ -84,43 +84,6 @@ img {
     filter: invert(1);
 }
 
-@media (max-width: 1200px) {
-  .container {
-    width: 90%;
-    top: 15%;
-  }
-}
-
-@media (max-width: 992px) {
-  h2 {
-    font-size: 4rem;
-    margin-top: 5vw;
-  }
-  .card {
-    height: 250px;
-    width: 200px;
-  }
-}
-
-@media (max-width: 768px) {
-  h2 {
-    font-size: 3rem;
-    margin-top: 6vw;
-  }
-  .card {
-    height: 220px;
-    width: 180px;
-  }
-  .container {
-    width: 95%;
-    top: 10%;
-    flex-direction: column;
-  }
-  .card {
-    margin: 1rem 0;
-  }
-}
-
 @media (max-width: 480px) {
   h2 {
     font-size: 2rem;
@@ -129,12 +92,20 @@ img {
   .card {
     height: 200px;
     width: 160px;
+    margin: 180px;
   }
   .socialmedia {
-    gap: 15px;
+    gap: 10px;
   }
   .svg {
     width: 25px;
     height: 25px;
+  }
+  .container {
+    width: 95%;
+    top: 0;
+    flex-direction: column; /* Stacks cards vertically */
+    align-items: center; /* Center align items vertically */
+    
   }
 }
