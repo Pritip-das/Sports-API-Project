@@ -73,7 +73,7 @@ header .logo img {
 }
 
 header nav {
-/*   display: flex; */
+  display: flex;
   align-items: center;
 }
 
@@ -259,7 +259,7 @@ main {
   }
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   header {
     padding: 5px;
   }
@@ -311,8 +311,8 @@ main {
   }
 
   
-}
-.checkbtn{
+} */
+/* .checkbtn{
   font-size: 30px;
   color: white;
   float:right;
@@ -322,8 +322,40 @@ main {
 /*   display: none; */
 }
 
-#check{
+/* #check{
   display: none;
+} */ */
+
+@media (max-width: 480px) {
+  header {
+    padding: 5px;
+  }
+
+  header .logo img {
+    height: 30px;
+  }
+
+  header nav ul li {
+    margin: 5px 0;
+  }
+
+  header nav ul li a {
+    font-size: 0.8em;
+    padding: 6px 12px;
+  }
+
+  .title-overlay .main-title {
+    font-size: 3em;
+  }
+
+  .animated-separator {
+    top: 50px;
+  }
+
+  main {
+    top: 60px;
+    height: calc(100vh - 100px);
+  }
 }
 
 
